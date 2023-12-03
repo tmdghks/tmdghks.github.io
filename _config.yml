@@ -43,9 +43,7 @@ author: tmdghks (김승환)
 copyright: "Unpublished Work (cleft) 2023-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  아직 무엇을 할지 정하지 않은 블로그
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tmdghks.github.com" # the base hostname & protocol for your site, e.g. https://example.com
@@ -54,7 +52,7 @@ favicon: "" # the favicon for your site
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
-  date_format: "%Y년 %m월 %d일"
+  date_format: "%Y/%m/%d"
 
 # If you want more debug log, you can set true
 # debug: false
@@ -152,19 +150,17 @@ lang: "ko"  # default lang is en
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+   - index.html
+   - archives.html
+   - categories.html
+   - tags.html
+   - about.md
 
-# Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+home:
+  heading: "김승환 SeungHwan Kim"
+  subheading: "tmdghks\nUndergraduate Student at Korea University Computer Science & Engineering"
+  banner: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f49e9371-d784-4bbd-a6db-286fb2601e1e/dg7np6j-6fcf85e0-6089-4ddb-b98e-ff51d32760f2.png/v1/fill/w_1194,h_669,q_70,strp/_free_to_use__galaxy___desktop_background_by_redpandapawss_dg7np6j-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODE2IiwicGF0aCI6IlwvZlwvZjQ5ZTkzNzEtZDc4NC00YmJkLWE2ZGItMjg2ZmIyNjAxZTFlXC9kZzducDZqLTZmY2Y4NWUwLTYwODktNGRkYi1iOThlLWZmNTFkMzI3NjBmMi5wbmciLCJ3aWR0aCI6Ijw9MTQ1NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.aq56cGm-KFpit2AIiVkq0-JYH5Qrp_StyZjOuVnDNUE"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -191,7 +187,7 @@ lang: "ko"  # default lang is en
 #   text_size: 350          # Words default size
 
 # Pagination setting
-# paginate: 5
+paginate: 5
 
 # Photo previewer settings (PhotoSwipe 5)
 # the options please refer to: https://photoswipe.com/options/
