@@ -1,5 +1,7 @@
 name: Build and Deploy to Github Pages
 
+uses: jeffreytse/jekyll-deploy-action@v0.5.0
+
 on:
   push:
     branches:
