@@ -238,8 +238,6 @@ utterances:
 # Build settings
 # highlighter: none
 markdown: kramdown
-kramdown:
-  input: GFM
 
 plugins:
   - jekyll-feed
