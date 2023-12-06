@@ -240,6 +240,7 @@ utterances:
 markdown: kramdown
 kramdown:
   input: GFM
+  mathjax: true
 
 plugins:
   - jekyll-feed
