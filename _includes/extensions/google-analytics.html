@@ -6,7 +6,7 @@
     var enableDNT = "{{ site.enableDNT | default: true }}" == "true";
 
     if (!enableDNT || !doNotTrack) {
-      var measurementId = '{{ site.google_analytics }}';
+      var measurementId = '${{ secrets.GA_MEASUREMENT_ID }}';
 
       (function(src) {
         var tag = document.createElement('script');
