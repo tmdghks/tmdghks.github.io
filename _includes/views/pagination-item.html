@@ -9,17 +9,9 @@
 {%- assign article_excerpt = return -%}
 {%- assign post_url = post.url | relative_url -%}
 
-{%- assign name = 'excerpt.image_width' -%}
-{%- include functions.html func='get_value' -%}
-{%- assign image_width = return | default: '38.2%' -%}
-
-{%- assign name = 'excerpt.image_height' -%}
-{%- include functions.html func='get_value' -%}
-{%- assign image_height = return | default: '160px' -%}
-
-{%- assign name = 'excerpt.default_image' -%}
-{%- include functions.html func='get_value' -%}
-{%- assign default_image = return -%}
+{%- assign image_width = post.excerpt.image_width | default: '38.2%' -%}
+{%- assign image_height = post.excerpt.image_height | default: '160px' -%}
+{%- assign default_image = post.excerpt.default_image | default: '/assets/images/default-image.jpeg' -%}
 
 {%- assign post_image = post.excerpt_image
   | default: post.banner.image
@@ -43,7 +35,7 @@
   </div>
   <div class="post-excerpt">
     {%- if post_image and post_image != 'NO_EXCERPT_IMAGE' -%}
-    <a  class="post-image" href="{{ post_url }}" style="flex: 0 1 {{ image_width }}">
+    <a class="post-image" href="{{ post_url }}" style="flex: 0 1 {{ image_width }}">
       <div style="background-image: url({{ post_image | relative_url }}); height: {{ image_height }}"></div>
     </a>
     {%- endif -%}

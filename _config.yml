@@ -105,11 +105,11 @@ lang: "ko"  # default lang is en
 # coolblack: #090a0b
 # spacegrey: #353535
 # snowwhite: #ffffff
-#
+# #
 # theme_color: snowwhite
 #
 # Custom color as below:
-# theme_color: "#882250"
+theme_color: "#ffffff"
 
 # You can choose a brand color
 # Default brand colors as below:
@@ -120,7 +120,7 @@ lang: "ko"  # default lang is en
 # brand_color: orangered
 #
 # Custom color as below:
-# brand_color: "#1a8e42"
+brand_color: "#DC143C"
 
 # You can custom selection style
 # selection:
@@ -181,27 +181,27 @@ header_pages:
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
 
 # Excerpt settings
-# excerpt:
-#   default_image: /assets/images/default-image.jpeg  # Default image when the image style is not none
-#   image_style: z          # Image layout style (It's value could be none, left, right, top, z, z-reverse)
-#   image_width: 38.2%      # Image default width
-#   image_height: 160px     # Image default height
-#   text_size: 350          # Words default size
+excerpt:
+  default_image: /assets/images/default-image.jpeg  # Default image when the image style is not none
+  image_style: z          # Image layout style (It's value could be none, left, right, top, z, z-reverse)
+  image_width: 38.2%      # Image default width
+  image_height: 160px     # Image default height
+  text_size: 350          # Words default size
 
 # Pagination setting
 paginate: 5
 
 # Photo previewer settings (PhotoSwipe 5)
 # the options please refer to: https://photoswipe.com/options/
-# photo_previewer:
-#  gallery: "section.main"
-#  children: "a.photo-swipe"
-#  bgOpacity: 0.8
-#  padding:
-#    top: 20
-#    bottom: 40
-#    left: 100
-#    right: 100
+photo_previewer:
+  gallery: "section.main"
+  children: "a.photo-swipe"
+  bgOpacity: 0.8
+  padding:
+    top: 20
+    bottom: 40
+    left: 100
+    right: 100
 
 # Click to top settings
 # click_to_top:
