@@ -52,7 +52,7 @@ favicon: "" # the favicon for your site
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
-  date_format: "%Y/%m/%d"
+  date_format: "%Y년 %m월 %d일"
 
 # If you want more debug log, you can set true
 # debug: false
@@ -120,7 +120,7 @@ theme_color: "#ffffff"
 # brand_color: orangered
 #
 # Custom color as below:
-brand_color: "#DC143C"
+brand_color: "#862633"
 
 # You can custom selection style
 # selection:
