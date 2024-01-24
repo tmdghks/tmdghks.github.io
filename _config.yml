@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CSciTiger
+title: 김승환 유니버스
 email: tmdghks12@korea.ac.kr
 author: tmdghks (김승환)
 
