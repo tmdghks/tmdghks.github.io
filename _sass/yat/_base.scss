@@ -126,12 +126,12 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: $crimson-color;
+  border-left: 4px solid $crimson-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+  letter-spacing: 0px;
+  font-style: normal;
 
   > :last-child {
     margin-bottom: 0;
@@ -147,6 +147,7 @@ pre,
 code {
   @include relative-font-size(0.9375);
   color: $text-color;
+  font-family: 'Consolas', monospace;
 }
 
 *:not(pre) > code {
