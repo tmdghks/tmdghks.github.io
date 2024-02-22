@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Atcoder] Beginner 338 E - Chords"
-author: tmdghks
+author: 김승환
 categories: "Problem_Solving"
 tags: [알고리즘, PS, Atcoder, 스택, 수학, 기하학]
 ---

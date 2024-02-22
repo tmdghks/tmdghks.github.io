@@ -2,7 +2,7 @@
 layout: post
 title: "Introduction to COSE112"
 subtitle: 전산수학2 블로그 포스트에 대한 설명
-author: tmdghks
+author: 김승환
 categories: 전산수학2
 tags: [전산수학2]
 ---

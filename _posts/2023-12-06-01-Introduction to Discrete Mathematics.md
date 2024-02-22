@@ -2,7 +2,7 @@
 layout: post
 title: "Introduction to Discrete Mathematics"
 subtitle: 이산수학 블로그 포스트에 대한 설명
-author: tmdghks
+author: 김승환
 categories: 이산수학
 tags: [이산수학]
 ---
