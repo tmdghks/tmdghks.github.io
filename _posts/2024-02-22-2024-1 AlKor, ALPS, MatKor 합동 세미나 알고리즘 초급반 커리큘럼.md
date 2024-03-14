@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2024-1 AlKor, ALPS, MatKor 합동 세미나 알고리즘 초금반 커리큘럼"
+title: "2024-1 AlKor, ALPS, MatKor 합동 세미나 알고리즘 초급반 커리큘럼"
 author: 김승환
 categories: 2024-1알고리즘초급
 tags: [ALPS, 세미나, C++, 알고리즘, 초급]
