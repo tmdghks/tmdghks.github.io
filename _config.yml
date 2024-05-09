@@ -237,10 +237,20 @@ utterances:
   follow_site_theme: true
 
 # Build settings
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge
+#   mathjax: true
+
 markdown: kramdown
-kramdown:
   input: GFM
+  hard_wrap: false
   syntax_highlighter: rouge
+  entity_output: as_char
+  enable_coderay: false
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
   mathjax: true
 
 plugins:
