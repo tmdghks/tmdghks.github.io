@@ -244,6 +244,7 @@ utterances:
 #   mathjax: true
 
 markdown: kramdown
+kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
@@ -251,8 +252,6 @@ markdown: kramdown
   enable_coderay: false
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   use_coderay: false
-  mathjax: true
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
