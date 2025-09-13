@@ -3,6 +3,8 @@
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
     "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.eol": "\n",
     "prettier.tabWidth": 4,
